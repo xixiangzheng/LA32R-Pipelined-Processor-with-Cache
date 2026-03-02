@@ -10,7 +10,7 @@ It features comprehensive handling of structural, data, and control hazards thro
 
 ### System Datapath
 
-![](.\cpu_core\docs\datapath.png)
+![](./cpu_core/docs/datapath.png)
 
 >   **Note:** The diagram above illustrates the baseline 5-stage pipeline. Advanced forwarding paths and hazard detection logic are implemented in RTL but omitted here for visual clarity.
 
@@ -39,9 +39,9 @@ It features comprehensive handling of structural, data, and control hazards thro
 
 Detailed quantitative analysis, simulation waveforms (Hit/Miss/Write-Back logic), and performance data across various configurations are meticulously documented in the following reports:
 
-👉 **[Click here to view the detailed CPU Pipeline Verification Report](.\cpu_core\docs\CPU_Pipeline_Verification_Report.pdf)**
+👉 **[Click here to view the detailed CPU Pipeline Verification Report](./cpu_core/docs/CPU_Pipeline_Verification_Report.pdf)**
 
-👉 **[Click here to view the detailed Cache Performance Analysis Report](.\cache_module\reports\Cache_Performance_Analysis_Report.pdf)**
+👉 **[Click here to view the detailed Cache Performance Analysis Report](./cache_module/reports/Cache_Performance_Analysis_Report.pdf)**
 
 ## 📂 Project Structure & Directory Tree
 
