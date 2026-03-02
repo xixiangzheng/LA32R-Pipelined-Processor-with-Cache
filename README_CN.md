@@ -10,7 +10,7 @@
 
 ### 系统数据通路
 
-![](.\cpu_core\docs\datapath.png)
+![](./cpu_core/docs/datapath.png)
 
 >   **注：**上图展示了五级流水线的基准数据通路。为了保持架构图的清晰易懂，此处省略了已在 RTL 中实现的前递路径与冒险检测逻辑。
 
@@ -39,9 +39,9 @@
 
 本项目对 CPU 核心与 Cache 子系统均进行了详尽的量化分析。详细的仿真波形图、命中率数据分析及性能测试见下表：
 
-👉 **[点击此处查看详细的 CPU 流水线验证报告](.\cpu_core\docs\CPU_Pipeline_Verification_Report.pdf)** 
+👉 **[点击此处查看详细的 CPU 流水线验证报告](./cpu_core/docs/CPU_Pipeline_Verification_Report.pdf)** 
 
-👉 **[点击此处查看详细的 Cache 性能分析报告](.\cache_module\reports\Cache_Performance_Analysis_Report.pdf)**
+👉 **[点击此处查看详细的 Cache 性能分析报告](./cache_module/reports/Cache_Performance_Analysis_Report.pdf)**
 
 ## 📂 项目结构与目录树
 
@@ -123,4 +123,5 @@ LA32R-Pipelined-Processor-with-Cache/
 
 -   **硬件描述语言：** Verilog HDL
 -   **综合与仿真工具：** Xilinx Vivado
+
 -   **硬件部署平台：** FPGAOL 在线实验平台 (ZYNQ / Artix-7 系列)
